@@ -13,6 +13,20 @@ function [output] = main()
     output = navigation(setup,.2,.3);
 
 
+    %Initialize simulation time steps
+    timeStep = .01 %seconds
+    totalSimTimesteps = 10
+    time_step_n
+
+
+    for time_step_n = 0:1:totalSimTimesteps
+
+
+
+
+    end %for loop (sim)
+
+
 end
 
 
