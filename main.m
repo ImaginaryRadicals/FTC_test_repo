@@ -30,7 +30,9 @@ end
 
 function image_output = visionSteering(vision_settings,image)
     %Extract steering information from provided image
-
+    
+    %Vision settings should include imageHeight and imageWidth
+    % updateRate, RGB or BlackWhite (bool?), etc.
 
 
 end %visionSteering
