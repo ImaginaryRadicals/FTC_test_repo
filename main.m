@@ -3,10 +3,15 @@
 function [output] = main()
 % This will house the robot simulation timesteps
 
-    display('Test output')
+    display('Simulation code')
 
-    output = sin(pi/2)
 
+
+
+end
+
+
+function navigation(setup,right_wheel_rad,left_wheel_rad)
     % Dead-reckoning robot function plan
     % INPUTS: 
         % robot setup structure:
@@ -16,5 +21,5 @@ function [output] = main()
         % left_wheel_rotation_radians
     %OUTPUTS
 
-
 end
+
