@@ -20,6 +20,9 @@ function navigation(setup,right_wheel_rad,left_wheel_rad)
         % right_wheel_rotation_radians
         % left_wheel_rotation_radians
     %OUTPUTS
+    %Delta rotation (NED, right and rule)
+    %Delta X
+    %Delta Y
 
 end
 
