@@ -1,3 +1,4 @@
+%%FantasticMan was here!!!
 %% This is a pretend source file
 
 function [output] = main()
