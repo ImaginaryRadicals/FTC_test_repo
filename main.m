@@ -3,8 +3,12 @@
 function [output] = main()
 % This will house the robot simulation timesteps
 
+<<<<<<< HEAD
     display('Simulation code')
     
+=======
+    display('Sim code')
+>>>>>>> a1ca085f77bdb18dae17a1f363dfff61be1fb0b2
 
     % Initialize structure for navigation function
     setup.wheelbase_cm = 30;
@@ -44,4 +48,16 @@ function output = navigation(setup,right_wheel_rad,left_wheel_rad)
     %Delta Y
 
 end
+
+
+
+function image_output = visionSteering(vision_settings,image)
+    %Extract steering information from provided image
+    
+    %Vision settings should include imageHeight and imageWidth
+    % updateRate, RGB or BlackWhite (bool?), etc.
+
+
+end %visionSteering
+
 
