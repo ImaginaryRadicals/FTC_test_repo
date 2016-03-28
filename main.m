@@ -4,12 +4,8 @@
 function [output] = main()
 % This will house the robot simulation timesteps
 
-<<<<<<< HEAD
     display('Simulation code')
     
-=======
-    display('Sim code')
->>>>>>> a1ca085f77bdb18dae17a1f363dfff61be1fb0b2
 
     % Initialize structure for navigation function
     setup.wheelbase_cm = 30;
